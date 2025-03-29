@@ -13,7 +13,7 @@ AgroNusaStore adalah sebuah website e-commerce yang dirancang untuk mempermudah 
 
 Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di mesin lokal Anda:
 
-### Prasyarat
+### Requirement
 Pastikan Anda telah menginstal:
 - PHP >= 8.0
 - Composer
@@ -62,17 +62,22 @@ Pastikan Anda telah menginstal:
     php artisan migrate
     ```
 
-8. Jalankan build frontend:
+8. Jalankan seeder untuk mengisi data awal:
+    ```bash
+    php artisan db:seed
+    ```
+
+9. Jalankan build frontend:
     ```bash
     npm run dev
     ```
 
-9. Jalankan server lokal:
+10. Jalankan server lokal:
     ```bash
     php artisan serve
     ```
 
-10. Buka browser dan akses:
+11. Buka browser dan akses:
     ```
     http://127.0.0.1:8000
     ```
