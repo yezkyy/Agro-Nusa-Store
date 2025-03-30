@@ -39,13 +39,7 @@
 
 <!-- Produk Terlaris -->
 <section id="products" class="py-20">
-    <div class="container mx-auto px-6">
-        <!-- Judul Produk -->
-        <h2 class="text-4xl font-extrabold text-center text-green-700" 
-            data-aos="fade-up" 
-            data-aos-duration="1000">
-            🌱 Produk Kami
-        </h2>
+
         <p class="text-gray-600 text-center mt-3 text-lg italic" 
             data-aos="fade-up" 
             data-aos-delay="200">
