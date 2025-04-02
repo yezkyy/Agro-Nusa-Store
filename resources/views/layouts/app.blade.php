@@ -38,6 +38,10 @@
                 <main>
                     @yield('content')
                 </main>
+
+                @if (!request()->is('admin/*') && !request()->is('dashboard'))
+                @include('layouts.footer') {{-- Footer tidak muncul di admin dan dashboard --}}
+                @endif
             </div>
         </div>
 

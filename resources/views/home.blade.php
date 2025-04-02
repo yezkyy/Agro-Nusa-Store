@@ -178,13 +178,6 @@
     </div>
 </section>
 
-<!-- CTA Section -->
-<section class="py-16 bg-green-700 text-center text-white">
-    <h2 class="text-3xl font-bold">Siap Meningkatkan Pertumbuhan Tanaman Anda?</h2>
-    <p class="text-lg mt-4">Jelajahi produk terbaik kami dan dapatkan hasil terbaik untuk pertanian Anda.</p>
-    <a href="/products" class="mt-6 inline-block bg-yellow-400 hover:bg-yellow-500 text-green-800 font-semibold px-6 py-3 rounded-lg shadow-md transition duration-300">Belanja Sekarang</a>
-</section>
-
 <script>
     document.getElementById("exploreBtn").addEventListener("click", function() {
         document.getElementById("products").scrollIntoView({ behavior: 'smooth' });
