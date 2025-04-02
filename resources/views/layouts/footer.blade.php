@@ -41,6 +41,6 @@
 
     <!-- Copyright -->
     <div class="text-center text-gray-300 mt-8 border-t border-gray-500 pt-4">
-        &copy; {{ date('Y') }} AgroNusaStore. All Rights Reserved.
+        &copy; {{ date('Y') }} AgroNusaStore. All Rights Reserved. Developed by Ruang Kode
     </div>
 </footer>
